@@ -3,30 +3,20 @@
 }
 
 body{
-    background-color: beige;
+    background-color: rgb(214, 245, 255);
 }
 
-.carousel-item img{
-    height: 100vh;
+.quote-box{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+  
+#logo{
+    width: 4rem;
 }
 
-.carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: auto;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-  }
-  
-  .carousel-caption h5,
-  .carousel-caption p {
-    color: #fff; /* Garante contraste */
-  }
-  
-  @media (max-width: 576px) {
-    .carousel-caption {
-      font-size: 0.8rem;
-      padding: 5px;
-    }
-  }
-  
+#navbar-main-container{
+    padding: 0;
+}
+
