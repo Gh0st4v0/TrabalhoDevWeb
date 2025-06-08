@@ -20,3 +20,54 @@ body{
     padding: 0;
 }
 
+.table-blue tr th{
+    background-color: #0d6efd;
+    color: white;
+}
+
+#fale-conosco-form{
+    background-color: #0d6efd;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#socials-section{
+    margin-top: 2rem;
+    background-color: #0d6efd;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#socials-section *{
+    text-align: center;
+    width: 5rem;
+}
+
+#socials-section img:hover{
+    cursor: pointer;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 15rem;
+    height: 4px;
+    background-color: #0d6efd;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+
+.custom-button{
+    width: 100%;
+    background-color: darkblue;
+    padding: 1rem 40%;
+}
+
+@media (max-width: 600px) {
+    #logo-header{
+        width: 80%;
+    }
+}

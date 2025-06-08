@@ -33,31 +33,31 @@
 
         <h2 class="text-center mb-4">Fale Conosco</h2>
     
-        <section>
-          <h4 class="mb-3">Envie uma mensagem</h4>
+        <section id="fale-conosco-form">
+          <h4 class="mb-3 text-light">Envie uma mensagem</h4>
           <form id="form-contato">
             <div class="mb-3">
-              <label for="nome" class="form-label">Nome completo</label>
+              <label for="nome" class="form-label text-light">Nome completo</label>
               <input type="text" class="form-control" id="nome" required>
             </div>
     
             <div class="mb-3">
-              <label for="email" class="form-label">E-mail</label>
+              <label for="email" class="form-label text-light">E-mail</label>
               <input type="email" class="form-control" id="email" required>
             </div>
     
             <div class="mb-3">
-              <label for="telefone" class="form-label">Telefone</label>
+              <label for="telefone" class="form-label text-light">Telefone</label>
               <input type="tel" class="form-control" id="telefone">
             </div>
     
             <div class="mb-3">
-              <label for="empresa" class="form-label">Nome da empresa</label>
+              <label for="empresa" class="form-label text-light">Nome da empresa</label>
               <input type="text" class="form-control" id="empresa">
             </div>
     
             <div class="mb-3">
-              <label for="servico" class="form-label">Serviço de interesse</label>
+              <label for="servico" class="form-label text-light">Serviço de interesse</label>
               <select class="form-select" id="servico" required>
                 <option selected disabled>Escolha um serviço</option>
                 <option>Consultoria Contábil</option>
@@ -70,24 +70,39 @@
     
             <div class="form-check mb-3">
               <input class="form-check-input" type="checkbox" id="aceite" required>
-              <label class="form-check-label" for="aceite">
+              <label class="form-check-label text-light" for="aceite">
                 Aceito ser contatado por telefone ou e-mail
               </label>
             </div>
     
             <div class="mb-3">
-              <label for="mensagem" class="form-label">Mensagem</label>
+              <label for="mensagem" class="form-label text-light">Mensagem</label>
               <textarea class="form-control" id="mensagem" rows="4" required></textarea>
             </div>
     
             <div class="mb-3">
-              <label for="horario" class="form-label">Horário preferido para contato</label>
+              <label for="horario" class="form-label text-light">Horário preferido para contato</label>
               <input type="time" class="form-control" id="horario">
             </div>
     
-            <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary custom-button">Enviar</button>
           </form>
         </section>
+
+        <section id="socials-section">
+            <div class="social-item">
+                <img src="../media/images/instagramLogo.png" alt="" href="#">
+                <p class="text-light">Instagram</p>
+            </div>
+            <div class="social-item">
+                <img src="../media/images/whatsappLogo.webp" alt="" href="#">
+                <p class="text-light">Whatsapp</p>
+            </div>
+            <div class="social-item">
+                <img src="../media/images/linkedInLogo.png" alt="" href="#">
+                <p class="text-light">LinkedIn</p>
+            </div>
+          </section>
     
       </main>
 
