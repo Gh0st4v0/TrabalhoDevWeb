@@ -1,0 +1,33 @@
+[
+    {
+      "servico": "Consultoria Contábil",
+      "descricao": "Suporte fiscal e contábil contínuo para pequenas e médias empresas.",
+      "valor": "R$ 450,00"
+    },
+    {
+      "servico": "Gestão Financeira",
+      "descricao": "Organização do fluxo de caixa e relatórios personalizados.",
+      "valor": "R$ 350,00"
+    },
+    {
+      "servico": "Planejamento Tributário",
+      "descricao": "Estratégias para redução legal da carga tributária anual.",
+      "valor": "R$ 500,00"
+    },
+    {
+      "servico": "Abertura de Empresa",
+      "descricao": "Assessoria completa na formalização do seu negócio.",
+      "valor": "R$ 800,00 (valor único)"
+    },
+    {
+      "servico": "Folha de Pagamento",
+      "descricao": "Emissão de holerites, guias e obrigações trabalhistas mensais.",
+      "valor": "R$ 30,00 por funcionário"
+    },
+    {
+      "servico": "Declaração de IRPF",
+      "descricao": "Declaração completa e envio com acompanhamento da Receita Federal.",
+      "valor": "R$ 150,00"
+    }
+  ]
+  
